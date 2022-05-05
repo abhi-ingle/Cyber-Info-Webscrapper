@@ -1,0 +1,39 @@
+from bs4 import BeautifulSoup
+import requests
+
+
+def get_news():
+  
+  html_code = requests.get('https://cybernews.com/news/').text
+  soup = BeautifulSoup(html_code, 'lxml')
+  
+  headlines = soup.find_all('h3', class_='heading heading_size_4')
+  
+  links = soup.find_all('a', class_='button space space_direction_vertical space_size_m display_block')
+  descriptions = []
+  
+  cover_images = []
+  
+  for link in links:
+      html_code2 = requests.get(link['href']).text
+      soup2 = BeautifulSoup(html_code2,'lxml')
+      description = soup2.find('div', class_='content')
+      descriptions.append(description.em.text)
+      cover_image = soup2.find('figure')
+      cover_images.append(cover_image.img)
+  
+  
+  for index,image in enumerate(cover_images):
+      name, src_link = image['alt'], image['data-src']
+      with open(f'cybernews_cover_images/{index}.jpg','wb') as f:
+          image_file = requests.get(src_link)
+          f.write(image_file.content)
+
+  return [headlines,description]
+
+
+    
+
+
+
+      
