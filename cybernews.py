@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
+
 def get_news():
   
   html_code = requests.get('https://cybernews.com/news/').text
@@ -21,15 +22,29 @@ def get_news():
       descriptions.append(description.em.text)
       cover_image = soup2.find('figure')
       cover_images.append(cover_image.img)
+  with open(f'cybernews/Headlines.txt','w') as f:
+    for headline in headlines:
+      f.write(f'{headline.text.strip()}\n')
   
-  
+  with open(f'cybernews/Description.txt','w') as f:
+    for description in descriptions:
+      f.write(f'{description}\n')
+
+  with open(f'cybernews/links.txt','w') as f:
+    for link in links:
+      n_link=link['href']
+      f.write(f'{n_link}\n')
+
+      
   for index,image in enumerate(cover_images):
       name, src_link = image['alt'], image['data-src']
       with open(f'cybernews_cover_images/{index}.jpg','wb') as f:
           image_file = requests.get(src_link)
           f.write(image_file.content)
+  
 
-  return [headlines,description]
+ 
+ 
 
 
     

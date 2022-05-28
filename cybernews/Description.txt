@@ -1,0 +1,18 @@
+As if ransomware groups extorting cryptocurrency out of hapless businesses weren’t enough, a new more vicious breed of malware has come to light – one which permanently wipes all the victim’s data, regardless of any payout.
+Soon enough, Seoul residents might find themselves entering the metaverse to register a complaint or chat with the mayor's avatar about current events.
+Germany's cartel office, the Bundeskartellamt, imposed stricter rules on Meta after determining its "paramount significance for competition across markets."
+We all know the script – Jeff takes a soft approach to getting the suspect to spill the beans, while Mutt rolls up his sleeves and threatens to beat it out of him. Research by Cisco Talos has revealed some striking parallels between the classic detective drama trope and the real-life negotiation tactics of two notorious ransomware groups.
+Information is power. Well aware of that, adversaries go to great lengths to hush journalists.
+The European Commission released the results of its investigation, accusing Apple of distorting competition in the European mobile wallets market and impeding innovation in the sector. 
+The UK government exposed new tactics used by the Kremlin to gather support for Russia’s invasion of Ukraine. This now includes “a troll factory” utilized to spread disinformation on social media in a large-scale international campaign. 
+The US charity Breastcancer.org suffered a misconfigured bucket exposure of over 350,000 files containing sensitive images of users.
+Elon Musk has big plans for Twitter. He might consider adding end-to-end encryption to direct messages if the deal goes through. While this would add another layer of privacy, it would also open opportunities for the criminal misuse of the platform.
+At least three threat actors linked to ransomware campaigns are distributing sophisticated Bumblebee malware loader.
+Throwing insurance money to cover ransom payments only seems to have worsened the situation. Knowing that victims would be able to draw upon their insurance policies, cybercriminals continue attacking organizations fiercely.
+While extremely limited, the culture of hacking has taken root in one of the most isolated places on the planet.
+Yandex announced it is going to sell its news aggregation platform and infotainment service Zen to VKontakte (VK).
+A threat actor thought to be the North Korean advanced persistent threat (APT) group Lazarus has been targeting its southern neighbor for more than a year in an orchestrating spear-phishing campaign, says data from cybersecurity firm Zscaler.
+The attack clocked at 15.3 million requests per second (rps), making it the largest HTTPS-based distributed denial-of-service (DDoS) attack the company has ever mitigated.
+An obscure open-source social media outlet is enjoying another popularity surge, as users concerned by Elon Musk’s Twitter takeover desert the high-profile platform, it has announced
+Freshly released ransomware statistics reveal a grim reality – the number of victims keeps growing, more companies are paying up, and ransoms that criminals demand are sky-high.
+The German company is a third wind turbine operator hit by hackers in less than two months.

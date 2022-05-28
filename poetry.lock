@@ -245,6 +245,14 @@ python-versions = "*"
 requests = "*"
 
 [[package]]
+name = "telegram"
+version = "0.0.1"
+description = "Telegram APIs"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "termcolor"
 version = "1.1.0"
 description = "ANSII Color formatting for output in terminal."
@@ -316,7 +324,7 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "4b646e1221532df6f85573d72915a32bc9b32cf03eb3856cfd75f06e83863e17"
+content-hash = "bd1f66ef04787e604466e7cd52508cc937544823721cc050bf7ab343efd3bef6"
 
 [metadata.files]
 async-generator = [
@@ -489,6 +497,9 @@ soupsieve = [
 telebot = [
     {file = "telebot-0.0.4-py3-none-any.whl", hash = "sha256:1d692ee3c2f07c5caacb1a82f0b59e40cef84f58be84435be9c8ce667dee94a6"},
     {file = "telebot-0.0.4.tar.gz", hash = "sha256:717f08f0cbb2b3bbba73e8b36cca466345b751d44e938235eaa24139073f3265"},
+]
+telegram = [
+    {file = "telegram-0.0.1.tar.gz", hash = "sha256:d405a0af4c868a8dbeae6d03e297e21c7ee6269e11e2ed3810e15544aba02591"},
 ]
 termcolor = [
     {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},

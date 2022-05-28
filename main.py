@@ -34,10 +34,14 @@ def hello(message):
   
 @bot.message_handler(commands=['TimeTable'])
 def TimeTable(message):
-  current_date_formate=date.today()
-  current_month=5 #at time of writing the program
-  if current_month!=current_date_formate.month:
+  current_date_format=date.today()
+  with open('Track/Month.txt') as f:
+    for line in f:
+      current_month=line
+  if int(current_month)!=current_date_format.month:
     ctf.get_timetable()
+    with open('Track/Month.txt','w') as f:
+        f.write(f'{current_date_format.month}')
   time.sleep(2)
   bot.send_photo(message.chat.id,photo=open('ctf-timetable/timetable.png', 'rb'),caption="For more information visit www.ctftime.org")
 
@@ -60,8 +64,35 @@ def Experts(message):
   
 @bot.message_handler(commands=['News'])
 def News(message):
-  headlines,description=cybernews.py
-  for i in range(len())
+  current_date_format=date.today()
+  with open('Track/Day.txt') as f:
+    for line in f:
+      current_day=line
+  if int(current_day)!=current_date_format.day:
+    cybernews.get_news()
+    with open('Track/Day.txt','w') as f:
+      f.write(f'{current_date_format.day}')
+  Headlines=[]
+  Description=[]
+  Links=[]
+  with open("cybernews/Headlines.txt") as Headlines_file:
+    for line in Headlines_file:
+      Headlines.append(line)
+  with open("cybernews/Description.txt") as Description_file:
+    for line in Description_file:
+      Description.append(line)
+
+  with open("cybernews/links.txt") as links_file:
+    for line in links_file:
+      Links.append(line)
+      
+      
+  for i in range(len(Headlines)):
+    bot.send_photo(message.chat.id,photo=open(f'cybernews_cover_images/{i}.jpg', 'rb'),caption=f"*{Headlines[i]}*\n{Description[i]}\n{Links[i]}",parse_mode="markdown")
+
+    
+
+    
 
 
 
