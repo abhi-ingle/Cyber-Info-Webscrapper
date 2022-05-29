@@ -6,7 +6,7 @@ import ctf
 import CyberExperts
 import cybernews
 
-API_KEY = os.environ['API_KEY']
+API_KEY = os.getenv('API_KEY')
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['Help'])
@@ -89,12 +89,5 @@ def News(message):
       
   for i in range(len(Headlines)):
     bot.send_photo(message.chat.id,photo=open(f'cybernews_cover_images/{i}.jpg', 'rb'),caption=f"*{Headlines[i]}*\n{Description[i]}\n{Links[i]}",parse_mode="markdown")
-
-    
-
-    
-
-
-
 bot.polling()
 
