@@ -1,18 +1,17 @@
-As if ransomware groups extorting cryptocurrency out of hapless businesses weren‚Äôt enough, a new more vicious breed of malware has come to light ‚Äì one which permanently wipes all the victim‚Äôs data, regardless of any payout.
-Soon enough, Seoul residents might find themselves entering the metaverse to register a complaint or chat with the mayor's avatar about current events.
-Germany's cartel office, the Bundeskartellamt, imposed stricter rules on Meta after determining its "paramount significance for competition across markets."
-We all know the script ‚Äì Jeff takes a soft approach to getting the suspect to spill the beans, while Mutt rolls up his sleeves and threatens to beat it out of him. Research by Cisco Talos has revealed some striking parallels between the classic detective drama trope and the real-life negotiation tactics of two notorious ransomware groups.
-Information is power. Well aware of that, adversaries go to great lengths to hush journalists.
-The European Commission released the results of its investigation, accusing Apple of distorting competition in the European mobile wallets market and impeding innovation in the sector. 
-The UK government exposed new tactics used by the Kremlin to gather support for Russia‚Äôs invasion of Ukraine. This now includes ‚Äúa troll factory‚Äù utilized to spread disinformation on social media in a large-scale international campaign. 
-The US charity Breastcancer.org suffered a misconfigured bucket exposure of over 350,000 files containing sensitive images of users.
-Elon Musk has big plans for Twitter. He might consider adding end-to-end encryption to direct messages if the deal goes through. While this would add another layer of privacy, it would also open opportunities for the criminal misuse of the platform.
-At least three threat actors linked to ransomware campaigns are distributing sophisticated Bumblebee malware loader.
-Throwing insurance money to cover ransom payments only seems to have worsened the situation. Knowing that victims would be able to draw upon their insurance policies, cybercriminals continue attacking organizations fiercely.
-While extremely limited, the culture of hacking has taken root in one of the most isolated places on the planet.
-Yandex announced it is going to sell its news aggregation platform and infotainment service Zen to VKontakte (VK).
-A threat actor thought to be the North Korean advanced persistent threat (APT) group Lazarus has been targeting its southern neighbor for more than a year in an orchestrating spear-phishing campaign, says data from cybersecurity firm Zscaler.
-The attack clocked at 15.3 million requests per second (rps), making it the largest HTTPS-based distributed denial-of-service (DDoS) attack the company has ever mitigated.
-An obscure open-source social media outlet is enjoying another popularity surge, as users concerned by Elon Musk‚Äôs Twitter takeover desert the high-profile platform, it has announced
-Freshly released ransomware statistics reveal a grim reality ‚Äì the number of victims keeps growing, more companies are paying up, and ransoms that criminals demand are sky-high.
-The German company is a third wind turbine operator hit by hackers in less than two months.
+The initial shock of geopolitical changes fizzles as ransomware gangs come back to life in full force.
+Attackers claim they represent the infamous REvil ransomware gang, considered defunct for months.
+With more players operating different parts of space infrastructure, the potential attack surface grows, providing more ways to conduct an attack.
+Artificial intelligence (AI) will transform warfighting, economic competitiveness, and national influence. Unless the US tops its AI game, China might become a dominant world power by 2030.
+The settlement covers the allegation that the company misused private information, like phone numbers, to target ads at unsuspecting users.
+A new website that published leaked emails from several leading proponents of Britain's exit from the European Union is tied to Russian hackers, according to a Google cybersecurity official and the former head of UK foreign intelligence.
+Starlink satellites, believed to be resistant to all hacking and jamming attempts, are under heavy fire. Great world powers consider it to be a threat to national security.
+The suspected head of an international cybercrime ring has been arrested in Nigeria thanks to collaboration between the authorities and private sector, according to an Interpol report.
+Developing countries are optimistic about the upcoming era of the metaverse. In contrast, high-income countries tend to be less enthusiastic, a new survey by Ipsos for the World Economic Forum revealed.
+In response to high-profile ransomware attacks such as Colonial Pipeline, 18 major energy companies have signed up to a ìcyber-resilienceî pledge at the annual meeting of the World Economic Forum (WEF) in Switzerland.
+Advertiser targeting choices for political, electoral, and social issues will soon be made available to academic researchers through Metaís FORT environment.
+Democrats call on Google's Sundar Pichai to stop collecting and retaining customer location data that could lead to the identification and prosecution of people seeking abortions.
+General Motors (GM,) an American automotive manufacturing corporation, got hit by a cyberattack, exposing customer personal information.
+YouTube is still up and running in Russia. Its citizens canít monetize their content anymore but YouTubeís management believes it's vital to deliver independent news to Russia.
+Human error is responsible for most data breaches as decision-makers refuse to take cybersecurity training seriously, the annual report by Verizon suggests.
+According to Interpol, cyberattacks grew 125% over the past year. However, most cases remain unreported, making it challenging to paint an accurate picture.
+Clearview AI Inc faces a £7,552,800 (about $9,5 million) fine for unlawfully collecting images on social media to create a global database that could be furtherly used for facial recognition. 

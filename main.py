@@ -5,19 +5,21 @@ from datetime import date
 import ctf
 import CyberExperts
 import cybernews
-
+from dotenv import load_dotenv
+load_dotenv()
 API_KEY = os.getenv('API_KEY')
+
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['Help'])
 def menu(message):
   help_text="""
 The following commands can be executed on the bot: \n
-1)"\\Greet": Greet the bot \n
-2)"\\Hi": Say Hi to the bot \n
-3)"\\TimeTable": Get the ctf TimeTable from www.ctftime.org \n
-4)"\\Experts": Get the list of most followed CyberExperts on Twitter \n
-5)"\\News" : Get the latest Cyber News
+1)"/Greet": Greet the bot \n
+2)"/Hi": Say Hi to the bot \n
+3)"/TimeTable": Get the ctf TimeTable from www.ctftime.org \n
+4)"/Experts": Get the list of most followed CyberExperts on Twitter \n
+5)"/News" : Get the latest Cyber News
 """
   
   bot.send_message(message.chat.id,help_text)
@@ -88,6 +90,13 @@ def News(message):
       
       
   for i in range(len(Headlines)):
-    bot.send_photo(message.chat.id,photo=open(f'cybernews_cover_images/{i}.jpg', 'rb'),caption=f"*{Headlines[i]}*\n{Description[i]}\n{Links[i]}",parse_mode="markdown")
+    try:
+      bot.send_photo(message.chat.id,photo=open(f'cybernews_cover_images/{i}.jpg', 'rb'),caption=f"*{Headlines[i]}*\n{Description[i]}\n{Links[i]}",parse_mode="markdown")
+    except:
+      continue
+
+    
+
+
 bot.polling()
 

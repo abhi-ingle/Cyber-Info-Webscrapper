@@ -16,12 +16,15 @@ def get_news():
   cover_images = []
   
   for link in links:
+    try:
       html_code2 = requests.get(link['href']).text
       soup2 = BeautifulSoup(html_code2,'lxml')
       description = soup2.find('div', class_='content')
       descriptions.append(description.em.text)
       cover_image = soup2.find('figure')
       cover_images.append(cover_image.img)
+    except:
+      continue
   with open(f'cybernews/Headlines.txt','w') as f:
     for headline in headlines:
       f.write(f'{headline.text.strip()}\n')
@@ -37,11 +40,13 @@ def get_news():
 
       
   for index,image in enumerate(cover_images):
-      name, src_link = image['alt'], image['data-src']
-      with open(f'cybernews_cover_images/{index}.jpg','wb') as f:
-          image_file = requests.get(src_link)
-          f.write(image_file.content)
-  
+      try:
+        name, src_link = image['alt'], image['data-src']
+        with open(f'cybernews_cover_images/{index}.jpg','wb') as f:
+            image_file = requests.get(src_link)
+            f.write(image_file.content)
+      except:
+        continue
 
  
  
