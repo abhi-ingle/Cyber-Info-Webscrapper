@@ -1,3 +1,7 @@
+The vulnerabilities discovered by Microsoft in pre-installed Android System apps could have been attack vectors for threat actors to access system configuration and sensitive information.
+Another member of notorious carding gang the Infraud Organization has been brought to justice, after being sentenced to four years for online racketeering.
+Indian low-cost airline SpiceJet was forced to cancel several flights, leaving hundreds stranded at the airport.
+Criminal forums are full of recently stolen admin-level credentials from various US-based colleges and universities.
 The initial shock of geopolitical changes fizzles as ransomware gangs come back to life in full force.
 Attackers claim they represent the infamous REvil ransomware gang, considered defunct for months.
 With more players operating different parts of space infrastructure, the potential attack surface grows, providing more ways to conduct an attack.
@@ -12,6 +16,3 @@ Advertiser targeting choices for political, electoral, and social issues will so
 Democrats call on Google's Sundar Pichai to stop collecting and retaining customer location data that could lead to the identification and prosecution of people seeking abortions.
 General Motors (GM,) an American automotive manufacturing corporation, got hit by a cyberattack, exposing customer personal information.
 YouTube is still up and running in Russia. Its citizens can’t monetize their content anymore but YouTube’s management believes it's vital to deliver independent news to Russia.
-Human error is responsible for most data breaches as decision-makers refuse to take cybersecurity training seriously, the annual report by Verizon suggests.
-According to Interpol, cyberattacks grew 125% over the past year. However, most cases remain unreported, making it challenging to paint an accurate picture.
-Clearview AI Inc faces a £7,552,800 (about $9,5 million) fine for unlawfully collecting images on social media to create a global database that could be furtherly used for facial recognition. 

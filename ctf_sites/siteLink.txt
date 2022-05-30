@@ -1,0 +1,10 @@
+https://www.hackthebox.com/
+https://tryhackme.com/
+https://www.vulnhub.com/
+https://hackmyvm.eu/
+https://ringzer0ctf.com/
+https://www.root-me.org/?lang=en
+https://overthewire.org/wargames/
+https://underthewire.tech/
+https://picoctf.org/
+https://w3challs.com/

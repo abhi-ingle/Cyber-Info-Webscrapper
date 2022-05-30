@@ -1,3 +1,7 @@
+https://cybernews.com/news/severe-vulnerabilities-found-in-android-apps-with-millions-of-downloads/
+https://cybernews.com/news/in-fraud-we-trust-cyber-gangster-jailed/
+https://cybernews.com/news/flights-canceled-over-a-ransomware-attack-on-an-airline/
+https://cybernews.com/news/stolen-credentials-of-us-universities-advertised-all-over-the-web/
 https://cybernews.com/news/back-to-business-cl0p-ransomware-gang-is-back/
 https://cybernews.com/news/ddos-attackers-pose-as-revil-sparking-fear-the-gang-is-back/
 https://cybernews.com/news/lax-satellite-cybersecurity-poses-a-global-threat-wef/
@@ -12,7 +16,3 @@ https://cybernews.com/news/meta-opens-up-political-ad-data-to-vetted-researchers
 https://cybernews.com/news/lawmakers-ask-google-to-stop-tracking-people-to-protect-abortion-rights/
 https://cybernews.com/news/general-motors-suffers-a-cyberattack-exposing-customer-data/
 https://cybernews.com/news/youtube-ceo-videos-denying-the-war-in-ukraine-violate-our-policy/
-https://cybernews.com/news/mock-cybersecurity-at-your-peril-report-warns/
-https://cybernews.com/news/russian-hackers-caught-spying-on-austria-and-estonia/
-https://cybernews.com/news/a-message-from-davos-cybercriminals-are-catching-up-with-state-sponsored-gangs/
-https://cybernews.com/news/facial-recognition-company-fined-millions-for-creating-a-database-full-of-publicly-available-facial-images/

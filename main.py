@@ -3,6 +3,7 @@ import telebot
 import time
 from datetime import date
 import ctf
+import ctfSites
 import CyberExperts
 import cybernews
 import random
@@ -18,8 +19,10 @@ def menu(message):
 The following commands can be executed on the bot: \n
 1)"/Greet": Greet the bot \n
 2)"/TimeTable": Get the ctf TimeTable from www.ctftime.org \n
-3)"/Experts": Get the list of most followed CyberExperts on Twitter \n
-4)"/News" : Get the latest Cyber News
+3)"/ctf": Get  the list of best CTF websites\n
+4)"/Experts": Get the list of most followed CyberExperts on Twitter \n
+5)"/News": Get the latest Cyber News\n
+6)"/Help": Display the Help Menu
 """
   
   bot.send_message(message.chat.id,help_text)
@@ -57,22 +60,22 @@ def Experts(message):
     for line in ID_File:
       Twitter_IDs.append(line)
   
-  result="https://twitter.com/\n\n"
+  result=f"*Here is the list of cybersecurity experts you can follow on Twitter*:https://twitter.com/\n{'~'*20}\n"
   for index in range(len(Names)):
-    result += f"{index+1}: {Names[index]}:{Twitter_IDs[index]}\n"
+    result += f"{index+1}: {Names[index]}\nLink: {Twitter_IDs[index]}\n{'~'*20}\n"
   
-  bot.send_message(message.chat.id,result)
+  bot.send_message(message.chat.id,result,parse_mode="markdown")
   
   
 @bot.message_handler(commands=['News'])
 def News(message):
   current_date_format=date.today()
-  with open('Track/Day.txt') as f:
+  with open('Track/Day1.txt') as f:
     for line in f:
       current_day=line
   if int(current_day)!=current_date_format.day:
     cybernews.get_news()
-    with open('Track/Day.txt','w') as f:
+    with open('Track/Day1.txt','w') as f:
       f.write(f'{current_date_format.day}')
   Headlines=[]
   Description=[]
@@ -95,8 +98,40 @@ def News(message):
     except:
       continue
 
-    
+@bot.message_handler(commands=['ctf'])
+def ctf_sites(message):
+  current_date_format=date.today()
+  with open('Track/Day2.txt') as f:
+    for line in f:
+      current_day=line
+  if int(current_day)!=current_date_format.day:
+    ctfSites.get_sites()
+    with open('Track/Day2.txt','w') as f:
+      f.write(f'{current_date_format.day}')
+  
 
+
+  site_Name=[]
+  site_Description=[]
+  site_Link=[]
+
+  with open('ctf_sites/siteName.txt') as Names:
+    for Name in Names:
+      site_Name.append(Name)
+
+  with open('ctf_sites/siteDescription.txt') as Descriptions:
+    for Description in Descriptions:
+      site_Description.append(Description)
+
+  with open('ctf_sites/siteLink.txt') as Links:
+    for Link in Links:
+      site_Link.append(Link)
+  result=f"*Here is the list of Best CTF websites*\n{'~'*20}\n"
+  for i in range(len(site_Name)):
+    result+=f"*{i+1}: {site_Name[i]}*\n{site_Description[i]}\nLink: {site_Link[i]}\n{'~'*20}\n"
+  bot.send_message(message.chat.id,result,parse_mode="markdown")
+
+  print("Done")
 
 bot.polling()
 

@@ -1,3 +1,7 @@
+Severe vulnerabilities found in Android apps with millions of downloads
+“In fraud we trust” – cyber gangster jailed
+Flights canceled over a ransomware attack on an airline
+Stolen credentials of US universities advertised all over the web
 Back to business: Cl0p ransomware gang is back
 DDoS attackers pose as REvil, sparking fear the gang is back
 Lax satellite cybersecurity poses a global threat - WEF
@@ -12,7 +16,3 @@ Meta opens up political ad data to vetted researchers
 Lawmakers ask Google to stop tracking people to protect abortion rights
 General Motors suffers a cyberattack exposing customer data
 YouTube CEO: videos denying the war in Ukraine violate our policy
-Mock cybersecurity at your peril, report warns
-Russian hackers caught spying on Austria and Estonia
-A message from Davos: cybercriminals are catching up with state-sponsored gangs
-Facial recognition company fined millions for creating a database full of publicly available facial images
