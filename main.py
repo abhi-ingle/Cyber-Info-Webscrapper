@@ -5,6 +5,7 @@ from datetime import date
 import ctf
 import CyberExperts
 import cybernews
+import random
 from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv('API_KEY')
@@ -16,10 +17,9 @@ def menu(message):
   help_text="""
 The following commands can be executed on the bot: \n
 1)"/Greet": Greet the bot \n
-2)"/Hi": Say Hi to the bot \n
-3)"/TimeTable": Get the ctf TimeTable from www.ctftime.org \n
-4)"/Experts": Get the list of most followed CyberExperts on Twitter \n
-5)"/News" : Get the latest Cyber News
+2)"/TimeTable": Get the ctf TimeTable from www.ctftime.org \n
+3)"/Experts": Get the list of most followed CyberExperts on Twitter \n
+4)"/News" : Get the latest Cyber News
 """
   
   bot.send_message(message.chat.id,help_text)
@@ -28,12 +28,10 @@ The following commands can be executed on the bot: \n
 
 @bot.message_handler(commands=['Greet'])
 def greet(message):
-    bot.reply_to(message,"Hey! How is it going?")
+    greetings=["Hey! How's it going?",'Hey!','Whatsup','Yo!','Glad to meet you!','Hello!']
+    bot.reply_to(message,random.choice(greetings))
 
-@bot.message_handler(commands=['Hi'])
-def hello(message):
-  bot.send_message(message.chat.id,"Hello!")
-  
+
 @bot.message_handler(commands=['TimeTable'])
 def TimeTable(message):
   current_date_format=date.today()
@@ -58,9 +56,11 @@ def Experts(message):
   with open("CyberExperts/TwitterProfile.txt","r") as ID_File:
     for line in ID_File:
       Twitter_IDs.append(line)
+  
   result="https://twitter.com/\n\n"
   for index in range(len(Names)):
     result += f"{index+1}: {Names[index]}:{Twitter_IDs[index]}\n"
+  
   bot.send_message(message.chat.id,result)
   
   
