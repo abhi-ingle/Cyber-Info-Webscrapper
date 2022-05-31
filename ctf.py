@@ -1,7 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
 import time
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ get_timetable takes the calendar screenshot from ctftime.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 def get_timetable():
   chrome_options = Options()
   chrome_options.add_argument('--no-sandbox')
@@ -12,6 +14,11 @@ def get_timetable():
   
   time.sleep(3)
   
-  driver.get_screenshot_as_file("Scrapped_Data/ctf-timetable/timetable.png")
+# Screenshot of the calendar taken and saved in the ctf-timetable directory
+
+  driver.get_screenshot_as_file("Scraped_Data/ctf-timetable/timetable.png")
   driver.quit()
-  #For more info visit https://ctftime.org/calendar/
+
+#For more info visit https://ctftime.org/calendar/
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
