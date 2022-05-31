@@ -12,6 +12,6 @@ def get_timetable():
   
   time.sleep(3)
   
-  driver.get_screenshot_as_file("ctf-timetable/timetable.png")
+  driver.get_screenshot_as_file("Scrapped_Data/ctf-timetable/timetable.png")
   driver.quit()
   #For more info visit https://ctftime.org/calendar/

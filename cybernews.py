@@ -25,15 +25,15 @@ def get_news():
       cover_images.append(cover_image.img)
     except:
       continue
-  with open(f'cybernews/Headlines.txt','w') as f:
+  with open(f'Scrapped_Data/cybernews/Headlines.txt','w') as f:
     for headline in headlines:
       f.write(f'{headline.text.strip()}\n')
   
-  with open(f'cybernews/Description.txt','w') as f:
+  with open(f'Scrapped_Data/cybernews/Description.txt','w') as f:
     for description in descriptions:
       f.write(f'{description}\n')
 
-  with open(f'cybernews/links.txt','w') as f:
+  with open(f'Scrapped_Data/cybernews/links.txt','w') as f:
     for link in links:
       n_link=link['href']
       f.write(f'{n_link}\n')
@@ -42,7 +42,7 @@ def get_news():
   for index,image in enumerate(cover_images):
       try:
         name, src_link = image['alt'], image['data-src']
-        with open(f'cybernews_cover_images/{index}.jpg','wb') as f:
+        with open(f'Scrapped_Data/cybernews_cover_images/{index}.jpg','wb') as f:
             image_file = requests.get(src_link)
             f.write(image_file.content)
       except:

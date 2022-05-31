@@ -14,12 +14,10 @@ def get_experts():
       twitter_Profiles.append(name['href'])
   print(len(names))
   
-  with open(f'CyberExperts/ExpertName.txt','w') as f:
+  with open(f'Scrapped_Data/CyberExperts/ExpertName.txt','w') as f:
       for name_title in name_titles:
           f.write(f'{str(name_title)}\n') 
   
-  with open(f'CyberExperts/TwitterProfile.txt','w') as f:
+  with open(f'Scrapped_Data/CyberExperts/TwitterProfile.txt','w') as f:
       for twitter_Profile in twitter_Profiles: 
           f.write(f'{str(twitter_Profile)}\n') 
-  
-

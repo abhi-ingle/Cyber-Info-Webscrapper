@@ -23,13 +23,13 @@ def get_sites():
             site_link.append(content.a['href'])
         count+=1
     
-    with open(f'ctf_sites/siteName.txt','w') as f:
+    with open(f'Scrapped_Data/ctf_sites/siteName.txt','w') as f:
         for name in site_name:
             f.write(f'{str(name)}\n')
-    with open(f'ctf_sites/siteDescription.txt','w') as f:
+    with open(f'Scrapped_Data/ctf_sites/siteDescription.txt','w') as f:
         for description in site_description:
             f.write(f'{str(description)}\n')
-    with open(f'ctf_sites/siteLink.txt','w') as f:
+    with open(f'Scrapped_Data/ctf_sites/siteLink.txt','w') as f:
         for link in site_link:
             f.write(f'{str(link)}\n')
      
