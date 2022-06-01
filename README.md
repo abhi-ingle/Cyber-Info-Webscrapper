@@ -1,5 +1,3 @@
-# CYBER INFO
-
 <pre>
    ______      __                 ____      ____    
   / ____/_  __/ /_  ___  _____   /  _/___  / __/___ 
@@ -11,6 +9,7 @@
 </br>
 BOT LINK: https://t.me/CyberInf0_bot
 </br>
+
 # WORKING OF THE BOT
 
 ### Help Menu: 
