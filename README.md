@@ -9,10 +9,12 @@
      /____/                                         
 </pre>
 
-## BOT LINK: https://t.me/CyberInf0_bot
+#### BOT LINK: https://t.me/CyberInf0_bot
 
-## WORKING OF THE BOT
+WORKING OF THE BOT
 
-#### Help Menu: Displays the commands which can be executed on the bot
+### Help Menu: Displays the commands which can be executed on the bot
 
 ## Following data can be scraped using Cyber Info:
+
+### 1)Cybersecurity Top News:
