@@ -40,4 +40,5 @@ Data of Cybersecurity YouTube channels is scrapped containing the channel name, 
 Profile links of Top Cybersecurity Experts on Twitter is scaped and the list is displayed to the user.
 ![Experts](https://user-images.githubusercontent.com/88927842/171379010-5140cd10-d7bc-4888-a7ea-8996d8966539.JPG)
 
-### <i>NOTE: The data is not scraped for each request as too many requests may cause unintentional Denial of Servive (DoS) Attack on the sites. The sites are scraped periodically and the scraped data is stored in files(Cyber-Info v1 later versions may use databases), for example for CTF-TimeTable the bot scraps the site monthly and stores the new time-table for each month, for news the bot scraps the site once in a day and stores the news of each new day.</i>
+### <i>NOTE: 
+#### The data is not scraped for each request as too many requests may cause unintentional Denial of Servive (DoS) Attack on the sites. The sites are scraped periodically and the scraped data is stored in files(Cyber-Info v1 later versions may use databases), for example for CTF-TimeTable the bot scraps the site monthly and stores the new time-table for each month, for news the bot scraps the site once in a day and stores the news of each new day.</i>
