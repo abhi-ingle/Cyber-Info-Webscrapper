@@ -18,7 +18,7 @@ Displays the commands which can be executed on the bot
 
 ## Following data can be scraped using Cyber Info:
 
-### 1) Cybersecurity Top News:
+### 1) Cybersecurity News:
 Top Headlines are scraped daily from https://cybernews.com/news/ </br> 
 Then from the individual news-links description and cover-image is grabed, all this data is organised in a presentable form and displayed to the user.
 ![News](https://user-images.githubusercontent.com/88927842/171376461-35b784fa-dd39-450e-aca5-9ceb9449d5f4.JPG)
@@ -28,7 +28,7 @@ Screenshot of TimeTable of Capture the flag events is scraped monthly from www.c
 Selenium Webdriver is used for this purpose
 ![TimeTable](https://user-images.githubusercontent.com/88927842/171376487-64009b86-251b-4895-9935-f4592cb3365e.JPG)
 
-### 3) Top CTF-Websites
+### 3) CTF-Websites
 Data of top websites to play CTFs is scraped and the list is displayed to the user.
 ![ctf-websites](https://user-images.githubusercontent.com/88927842/171378979-8d3cb041-f5b0-4b40-8cfa-c89332912fe5.JPG)
 
