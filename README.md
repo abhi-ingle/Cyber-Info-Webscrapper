@@ -24,6 +24,10 @@ Top Headlines are scraped daily from https://cybernews.com/news/ and then from t
 ![News](https://user-images.githubusercontent.com/88927842/171376461-35b784fa-dd39-450e-aca5-9ceb9449d5f4.JPG)
 
 ### 2) CTF-TimeTable
-Screenshot of CTF TimeTable is scraped monthly from www.ctftime.org.
+Screenshot of TimeTable of Capture the flag events is scraped monthly from www.ctftime.org.
 Selenium Webdriver is used for this purpose
 ![TimeTable](https://user-images.githubusercontent.com/88927842/171376487-64009b86-251b-4895-9935-f4592cb3365e.JPG)
+
+### 3)Top CTF-Websites
+Data of top websites to play CTFs is scraped and the list is displayed to the user.
+![ctf-websites](https://user-images.githubusercontent.com/88927842/171376537-0e1c98aa-f229-4ec
