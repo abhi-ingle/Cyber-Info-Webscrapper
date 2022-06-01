@@ -13,5 +13,6 @@
 
 ## WORKING OF THE BOT
 
-### 0)Help Menu: Displays the commands which can be executed on the bot
+#### Help Menu: Displays the commands which can be executed on the bot
+
 ## Following data can be scraped using Cyber Info:
