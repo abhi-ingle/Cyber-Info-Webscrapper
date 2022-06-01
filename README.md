@@ -19,7 +19,8 @@ Displays the commands which can be executed on the bot
 ## Following data can be scraped using Cyber Info:
 
 ### 1)Cybersecurity Top News:
-Top Headlines are scraped daily from https://cybernews.com/news/ and then from the individual news-links description, cover-image is grabed and organised in a presentable form and displayed.
+Top Headlines are scraped daily from https://cybernews.com/news/ </br> 
+Then from the individual news-links description and cover-image is grabed, all this data is organised in a presentable form and displayed to the user.
 ![News](https://user-images.githubusercontent.com/88927842/171376461-35b784fa-dd39-450e-aca5-9ceb9449d5f4.JPG)
 
 ### 2)CTF-TimeTable
