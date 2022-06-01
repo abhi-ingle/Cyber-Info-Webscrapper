@@ -12,3 +12,7 @@
 ## BOT LINK: https://t.me/CyberInf0_bot
 
 # WORKING OF THE BOT
+
+## Following data can be scraped using Cyber Info:
+
+### 
