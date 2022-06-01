@@ -9,11 +9,13 @@
      /____/                                         
 </pre>
 
-#### BOT LINK: https://t.me/CyberInf0_bot
+BOT LINK: https://t.me/CyberInf0_bot
 
-WORKING OF THE BOT
+#WORKING OF THE BOT
 
-### Help Menu: Displays the commands which can be executed on the bot
+### Help Menu: 
+Displays the commands which can be executed on the bot
+![ezgif-2-609b638928](https://user-images.githubusercontent.com/88927842/171376432-b228ebe1-b4d6-4432-a879-8b13dee67860.gif)
 
 ## Following data can be scraped using Cyber Info:
 
