@@ -7,7 +7,7 @@
      /____/                                         
 </pre>
 </br>
-BOT LINK: https://t.me/CyberInf0_bot
+<i>BOT LINK: https://t.me/CyberInf0_bot</i>
 </br>
 
 # WORKING OF THE BOT
